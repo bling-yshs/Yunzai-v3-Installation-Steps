@@ -142,10 +142,6 @@
 
 ## 常见问题
 
-- 遇到任何问题请带上[日志](#基础操作)来提问： `npm run log`
-
-  - <img src="picture/log.jpg" width="50%">
-
 - 米游社接口报错，暂时无法查询：error
 
   - [https://docs.qq.com/doc/DTnB4Qkh1RGRCeVFU](https://docs.qq.com/doc/DTnB4Qkh1RGRCeVFU)
