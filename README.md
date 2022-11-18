@@ -120,32 +120,6 @@
 
 - 插件设置命令： `#图鉴设置`
 
-### [py 插件(宵鸟插件)](https://gitee.com/realhuhu/py-plugin)
-
-- 安装依赖 `pnpm add @grpc/grpc-js -w` 再 `pnpm add @grpc/proto-loader -w`
-
-- 安装 python 3.8.8 [https://yshs.lanzouy.com/b09zlrj8f](https://yshs.lanzouy.com/b09zlrj8f)
-
-  > 注意安装时需要勾选 `Add Python 3.8 to PATH`
-
-- py 插件安装命令： `git clone --depth=1 https://gitee.com/realhuhu/py-plugin.git ./plugins/py-plugin/`
-
-- 进入 **Yunzai-Bot\plugins\py-plugin** 在这个目录下点击地址栏，把地址删掉，并输入 cmd，然后回车，会打开一个 cmd 窗口。在打开的 cmd 窗口里输入 `python install` 然后回车，从而安装依赖
-
-  - 对自己家网络质量没信心的同学可以先换成中科大镜像源再执行 `python install` ，换源命令： `pip config set global.index-url https://pypi.mirrors.ustc.edu.cn/simple` ，换回默认源方法：删除 `C:\Users\你自己的电脑名字\AppData\Roaming\pip` 文件夹
-    ![python install](py_picture/python_install.gif)
-
-- **把 cmd 窗口关了，然后按相同的步骤再开一次 cmd。** 然后输入 `poetry install` 再回车
-
-> **如果 node app 启动时提示「python 服务器启动失败」，那么请删掉 Yunzai-Bot\plugins\py-plugin 文件夹，然后再在云崽根目录下执行 `git clone --depth=1 https://gitee.com/realhuhu/py-plugin.git ./plugins/py-plugin/` 再 node app 启动就行，无需重新安装依赖**  
-> **如果使用以上方法以后还是启动失败，请检查服务器是否为 Windows Server 2012 ，如果是的话，那挺正常的，2012BUG 很多**
-
-- 帮助菜单命令： `#py帮助`
-
-- 详细帮助菜单： `#py插件管理帮助`
-
-> py 插件安装很容易出错，如果有别的问题请联系我
-
 ### [js 格式插件通用安装方法](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index?_from=gitee_search#js%E6%8F%92%E4%BB%B6%E7%B4%A2%E5%BC%95)
 
 - 很简单，将插件下载好后放入 `Yunzai-bot/plugins/example` 里即可 <img src="picture/js_plugins.png" width="50%">
